@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Delivery Page</title>
+  <style>
+    /* Styles for the truck animation */
+    .truck-icon {
+      width: 1800px;
+      height: 200px;
+      background-image: url('/media/images/truck-icon-20.png'); /* Replace 'truck.png' with your actual truck icon image */
+      background-size: cover;
+      animation: truckAnimation 5.2s infinite;
+    }
+
+    @keyframes truckAnimation {
+      0% { background-position: 100px 0; }
+      100% { background-position: 1200px 0; } /* Adjust the values based on your truck icon's width */
+    }
+
+    /* Styles for the delivery message */
+    .delivery-message {
+      font-family: Arial, sans-serif; /* Replace with your desired font */
+      font-size: 20px;
+      text-align: center;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <div style="margin-left: 100px;" class="truck-icon"></div>
+    <div class="delivery-message">Your item is being delivered</div>
+    <div class="delivery-message">Thank You! for making the Purchase.</div></br>
+    <div style="text-align: center;">Please check your mail for the Reciept.</div>
+  </div>
+
+
+  <script>
+    // JavaScript code for redirection after a delay (optional)
+    setTimeout(function() {
+      window.location.href = "localhost:8000"; // Replace with the URL of your thank you page
+    }, 5000); // Adjust the delay time (in milliseconds) as needed
+  </script>
+</body>
+</html>
