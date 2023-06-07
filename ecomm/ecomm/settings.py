@@ -142,6 +142,3 @@ EMAIL_USE_TLS = True
 EMAIL_PORT = 587
 EMAIL_HOST_USER = 'psandesh64@gmail.com'
 EMAIL_HOST_PASSWORD = 'vnpacvrxnjbglxac'
-
-# 875225443628-g6b8opfqshf0mlupndu9590o6h6lu3mt.apps.googleusercontent.com
-# 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
